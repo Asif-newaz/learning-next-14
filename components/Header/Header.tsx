@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar, AvatarImage } from "../ui/avatar";
+import { Button } from "../ui/button";
 
 type HeaderProps = {
   title: string;
@@ -8,13 +9,13 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center px-7 py-4">
         <Avatar>
           <AvatarImage src="/images/dh-logo.png" alt="" />
         </Avatar>
-        <h1 className="scroll-m-20 text-lg tracking-tight lg:text-lg text-slate-100">
-          {title}
-        </h1>
+        <Button variant="outline" className="bg-transparent text-white">
+          EN
+        </Button>
       </div>
     </>
   );
