@@ -9,7 +9,7 @@ const profile: React.FC<profileProps> = (props) => {
   return (
     <div className="bg-black">
       {/* Your component JSX */}
-      <p>Welcome profile!</p>
+      <p className="text-white">Welcome profile!</p>
     </div>
   );
 };
