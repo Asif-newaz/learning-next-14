@@ -1,12 +1,12 @@
-export default function RootLayout({
+export default function AuthLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <h2>Inner layout</h2>
+    <>
+      <h1>Inner layout</h1>
       <body>{children}</body>
-    </div>
+    </>
   );
 }
