@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Home Page Route!!</div>;
+  return <div className="hidden" style={{display: "none"}}>Home Page Route!!</div>;
 }
