@@ -6,7 +6,7 @@ export default function OrderProduct() {
   const router = useRouter();
   const handleClick = () => {
     console.log("Placing your order");
-    router.forward();
+    router.push("/");
   };
   return (
     <>
